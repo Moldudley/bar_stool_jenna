@@ -79,8 +79,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8017591339648173,
-      "y": 0.46951219512195125,
+      "x": 0.8309317963496639,
+      "y": 0.4817073170731707,
       "uniqueID": "id-10094",
       "ioValues": [
         {
@@ -112,8 +112,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6397718011409943,
-      "y": 0.7103658536585366,
+      "x": 0.6368876080691642,
+      "y": 0.7286585365853658,
       "uniqueID": "id-11214",
       "ioValues": [
         {
@@ -128,8 +128,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.7620211898940505,
-      "y": 0.801829268292683,
+      "x": 0.792507204610951,
+      "y": 0.7926829268292683,
       "uniqueID": "id-11221",
       "ioValues": [
         {
@@ -1129,8 +1129,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3851540616246499,
-      "y": 0.7074626865671642,
+      "x": 0.3861671469740634,
+      "y": 0.7103658536585366,
       "uniqueID": "id-10120",
       "name": "top_dowels",
       "ioValues": [
@@ -2487,6 +2487,22 @@
           ]
         },
         {
+          "atomType": "Tag",
+          "x": 0.21613832853025935,
+          "y": 0.34146341463414637,
+          "uniqueID": "id-17872",
+          "name": "corner_top_joint",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "corner_top_joint"
+          ]
+        },
+        {
           "atomType": "GitHubMolecule",
           "x": 0.15658021133525457,
           "y": 0.6646341463414633,
@@ -3718,22 +3734,6 @@
           },
           "unitsKey": "Inches",
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Tag",
-          "x": 0.21613832853025935,
-          "y": 0.34146341463414637,
-          "uniqueID": "id-17872",
-          "name": "corner_top_joint",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tags": [
-            "corner_top_joint"
-          ]
         }
       ],
       "allConnectors": [
@@ -3824,6 +3824,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-17872",
+          "ap2ID": "id-9102"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-13124",
           "ap2ID": "id-11120"
         },
@@ -3831,11 +3836,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-13124",
           "ap2ID": "id-17872"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-17872",
-          "ap2ID": "id-9102"
         }
       ],
       "fileTypeVersion": 1
@@ -5376,6 +5376,22 @@
               "name": "z-axis degrees",
               "ioValue": 90
             }
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.30259365994236315,
+          "y": 0.5792682926829268,
+          "uniqueID": "id-17884",
+          "name": "4-way-dowel-joint",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "4-way-dowel-joint"
           ]
         },
         {
@@ -8208,22 +8224,6 @@
           "unitsKey": "Inches",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1777407745544
-        },
-        {
-          "atomType": "Tag",
-          "x": 0.30259365994236315,
-          "y": 0.5792682926829268,
-          "uniqueID": "id-17884",
-          "name": "4-way-dowel-joint",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tags": [
-            "4-way-dowel-joint"
-          ]
         }
       ],
       "allConnectors": [
@@ -8294,6 +8294,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-17884",
+          "ap2ID": "id-10786"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-15546",
           "ap2ID": "id-14595"
         },
@@ -8301,11 +8306,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-15546",
           "ap2ID": "id-17884"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-17884",
-          "ap2ID": "id-10786"
         }
       ],
       "fileTypeVersion": 1
@@ -8553,6 +8553,22 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": "Leg_cap_1.25"
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.27569644572526414,
+          "y": 0.38109756097560976,
+          "uniqueID": "id-17887",
+          "name": "leg-caps",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "leg-caps"
+          ]
         },
         {
           "atomType": "GitHubMolecule",
@@ -8948,22 +8964,6 @@
             "isLocal": false
           },
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Tag",
-          "x": 0.27569644572526414,
-          "y": 0.38109756097560976,
-          "uniqueID": "id-17887",
-          "name": "leg-caps",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tags": [
-            "leg-caps"
-          ]
         }
       ],
       "allConnectors": [
@@ -9014,6 +9014,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-17887",
+          "ap2ID": "id-12025"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-11983",
           "ap2ID": "id-14601"
         },
@@ -9021,11 +9026,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-11983",
           "ap2ID": "id-17887"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-17887",
-          "ap2ID": "id-12025"
         }
       ],
       "fileTypeVersion": 1
