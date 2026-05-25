@@ -883,9 +883,9 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.31377343113284434,
-          "y": 0.46646341463414637,
-          "uniqueID": "id-10051",
+          "x": 0.3193504736129905,
+          "y": 0.42987804878048785,
+          "uniqueID": "id-16808",
           "name": "Dowel",
           "ioValues": [
             {
@@ -903,7 +903,7 @@
               "atomType": "Output",
               "x": 0.98,
               "y": 0.5,
-              "uniqueID": "id-10044",
+              "uniqueID": "id-16801",
               "ioValues": [
                 {
                   "name": "number or geometry",
@@ -915,7 +915,7 @@
               "atomType": "Circle",
               "x": 0.30969845150774244,
               "y": 0.4603658536585366,
-              "uniqueID": "id-10045",
+              "uniqueID": "id-16802",
               "ioValues": [
                 {
                   "name": "diameter",
@@ -927,21 +927,21 @@
               "atomType": "Input",
               "x": 0.0264,
               "y": 0.16,
-              "uniqueID": "id-10046",
+              "uniqueID": "id-16803",
               "name": "Dow_length"
             },
             {
               "atomType": "Input",
               "x": 0.0264,
               "y": 0.256,
-              "uniqueID": "id-10047",
+              "uniqueID": "id-16804",
               "name": "Dow_Diam"
             },
             {
               "atomType": "Extrude",
               "x": 0.5158924205378973,
               "y": 0.46341463414634143,
-              "uniqueID": "id-10048",
+              "uniqueID": "id-16805",
               "ioValues": [
                 {
                   "name": "geometry",
@@ -954,28 +954,10 @@
               ]
             },
             {
-              "atomType": "Code",
-              "x": 0.42542787286063566,
-              "y": 0.771341463414634,
-              "uniqueID": "id-10049",
-              "ioValues": [
-                {
-                  "name": "diam",
-                  "ioValue": 5
-                },
-                {
-                  "name": "length",
-                  "ioValue": 10
-                }
-              ],
-              "interpreterVersion": 0,
-              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"diam\", type: \"number\", defaultValue: 5 },\n  { inputName: \"length\", type: \"number\", defaultValue: 10 }\n];\n\nreturn `Wood dowel ${diam}in diameter, ${length}in length`"
-            },
-            {
               "atomType": "Add-BOM-Tag",
-              "x": 0.7098614506927465,
-              "y": 0.5487804878048781,
-              "uniqueID": "id-10050",
+              "x": 0.6474966170500677,
+              "y": 0.7317073170731707,
+              "uniqueID": "id-16806",
               "name": "Add BOM Tag",
               "ioValues": [
                 {
@@ -1006,38 +988,56 @@
                 "costUSD": 0,
                 "source": ""
               }
+            },
+            {
+              "atomType": "Code",
+              "x": 0.42677448337825696,
+              "y": 0.7225609756097561,
+              "uniqueID": "id-16807",
+              "ioValues": [
+                {
+                  "name": "diam",
+                  "ioValue": 5
+                },
+                {
+                  "name": "length",
+                  "ioValue": 10
+                }
+              ],
+              "interpreterVersion": 0,
+              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"diam\", type: \"number\", defaultValue: 5 },\n  { inputName: \"length\", type: \"number\", defaultValue: 10 }\n];\n\nreturn `Wood dowel ${diam}in diameter, ${length}in length`"
             }
           ],
           "allConnectors": [
             {
               "ap2Name": "geometry",
-              "ap1ID": "id-10045",
-              "ap2ID": "id-10048"
+              "ap1ID": "id-16802",
+              "ap2ID": "id-16805"
             },
             {
               "ap2Name": "height",
-              "ap1ID": "id-10046",
-              "ap2ID": "id-10048"
+              "ap1ID": "id-16803",
+              "ap2ID": "id-16805"
             },
             {
               "ap2Name": "diameter",
-              "ap1ID": "id-10047",
-              "ap2ID": "id-10045"
+              "ap1ID": "id-16804",
+              "ap2ID": "id-16802"
             },
             {
               "ap2Name": "geometry",
-              "ap1ID": "id-10048",
-              "ap2ID": "id-10050"
-            },
-            {
-              "ap2Name": "Item Name",
-              "ap1ID": "id-10049",
-              "ap2ID": "id-10050"
+              "ap1ID": "id-16805",
+              "ap2ID": "id-16806"
             },
             {
               "ap2Name": "number or geometry",
-              "ap1ID": "id-10050",
-              "ap2ID": "id-10044"
+              "ap1ID": "id-16805",
+              "ap2ID": "id-16801"
+            },
+            {
+              "ap2Name": "Item Name",
+              "ap1ID": "id-16807",
+              "ap2ID": "id-16806"
             }
           ],
           "parentRepo": {
@@ -1064,19 +1064,20 @@
             "isLocal": false
           },
           "unitsKey": "Inches",
-          "fileTypeVersion": 1
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1779720866709
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "Dow_length",
           "ap1ID": "id-10074",
-          "ap2ID": "id-10051"
+          "ap2ID": "id-16808"
         },
         {
           "ap2Name": "Dow_Diam",
           "ap1ID": "id-10077",
-          "ap2ID": "id-10051"
+          "ap2ID": "id-16808"
         },
         {
           "ap2Name": "Shape 1",
@@ -1105,22 +1106,22 @@
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-10051",
+          "ap1ID": "id-16808",
           "ap2ID": "id-10083"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-10051",
+          "ap1ID": "id-16808",
           "ap2ID": "id-10099"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-10051",
+          "ap1ID": "id-16808",
           "ap2ID": "id-10106"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-10051",
+          "ap1ID": "id-16808",
           "ap2ID": "id-10113"
         }
       ],
@@ -3820,8 +3821,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.25372124492557513,
-      "y": 0.4054878048780488,
+      "x": 0.25710419485791614,
+      "y": 0.41158536585365857,
       "uniqueID": "id-9463",
       "name": "bottom_braces",
       "ioValues": [
