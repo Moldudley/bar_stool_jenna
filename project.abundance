@@ -9540,7 +9540,12 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": [],
+                "bom": [
+                  "NACA 0010 airfoil profile, chord 30mm",
+                  "NACA 0010 airfoil profile, chord 30mm",
+                  "NACA 0010 airfoil profile, chord 30mm",
+                  "NACA 0010 airfoil profile, chord 30mm"
+                ],
                 "dimension": "3D",
                 "nonReplicadSerialized": [],
                 "boundingBox": {
