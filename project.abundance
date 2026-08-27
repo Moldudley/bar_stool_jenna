@@ -34,15 +34,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "id-8998",
       "name": "stool_width"
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.256,
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
       "uniqueID": "id-9314",
       "name": "dowel_diam"
     },
@@ -72,8 +72,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.352,
+      "x": 0.025384615384615384,
+      "y": 0.3384615384615385,
       "uniqueID": "id-9459",
       "name": "stool_height"
     },
@@ -311,6 +311,24 @@
                     }
                   }
                 ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
                 "tags": [],
                 "bom": [
                   {
@@ -338,24 +356,8 @@
                     "source": ""
                   }
                 ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
+                "dimension": "3D",
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     -8.6300001,
@@ -544,6 +546,24 @@
                     }
                   }
                 ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
                 "tags": [],
                 "bom": [
                   {
@@ -571,24 +591,8 @@
                     "source": ""
                   }
                 ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
+                "dimension": "3D",
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     -8.6300001,
@@ -620,58 +624,9 @@
                 1
               ]
             },
-            "tags": [],
             "color": "#aad7f2",
-            "bom": [
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              }
-            ],
+            "tags": [],
+            "bom": [],
             "dimension": "3D",
             "nonReplicadSerialized": [],
             "boundingBox": {
@@ -727,24 +682,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-10074",
           "name": "stool_height",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-10077",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.352,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "id-10080",
           "name": "stool_width",
           "type": "number"
@@ -925,15 +880,15 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-16803",
               "name": "Dow_length"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-16804",
               "name": "Dow_Diam"
             },
@@ -1159,16 +1114,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-10124",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-10127",
           "name": "stool_width",
           "type": "number"
@@ -1393,15 +1348,15 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-10133",
               "name": "Dow_length"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-10134",
               "name": "Dow_Diam"
             },
@@ -1820,24 +1775,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-11203",
           "name": "stool_height",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-11206",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.352,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "id-11209",
           "name": "stool_width",
           "type": "number"
@@ -1886,15 +1841,15 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-13691",
               "name": "Dow_length"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-13692",
               "name": "Dow_Diam"
             },
@@ -2099,8 +2054,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2974735126324369,
-      "y": 0.18902439024390244,
+      "x": 0.2970360824742268,
+      "y": 0.164804469273743,
       "uniqueID": "id-9051",
       "name": "top_joints",
       "ioValues": [
@@ -2347,22 +2302,22 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": -14
             }
           ]
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-9317",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-9320",
           "name": "stool_width",
           "type": "number"
@@ -2539,8 +2494,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-13079",
               "name": "Dowel_diam"
             },
@@ -2576,8 +2531,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-13082",
               "name": "section_width"
             },
@@ -2760,8 +2715,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.352,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-13089",
               "name": "Dowel_depth"
             },
@@ -3240,8 +3195,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-13109",
                   "name": "ShapeToFillet",
                   "type": "geometry"
@@ -3270,16 +3225,16 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.256,
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
                   "uniqueID": "id-13111",
                   "name": "RegionShape",
                   "type": "geometry"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.352,
+                  "x": 0.025384615384615384,
+                  "y": 0.3384615384615385,
                   "uniqueID": "id-13112",
                   "name": "Radius"
                 }
@@ -3464,8 +3419,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-13120",
                   "name": "ShapeToFillet",
                   "type": "geometry"
@@ -3494,16 +3449,16 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.256,
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
                   "uniqueID": "id-13122",
                   "name": "RegionShape",
                   "type": "geometry"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.352,
+                  "x": 0.025384615384615384,
+                  "y": 0.3384615384615385,
                   "uniqueID": "id-13123",
                   "name": "Radius"
                 }
@@ -4097,16 +4052,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-9660",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-9663",
           "name": "stool_height",
           "type": "number"
@@ -4148,8 +4103,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-9523",
               "name": "Dowel_diam"
             },
@@ -4185,8 +4140,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-9526",
               "name": "section_width"
             },
@@ -4609,8 +4564,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.352,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-9541",
               "name": "Dowel_depth"
             },
@@ -4650,8 +4605,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-9544",
                   "name": "ShapeToFillet",
                   "type": "geometry"
@@ -4680,16 +4635,16 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.256,
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
                   "uniqueID": "id-9546",
                   "name": "RegionShape",
                   "type": "geometry"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.352,
+                  "x": 0.025384615384615384,
+                  "y": 0.3384615384615385,
                   "uniqueID": "id-9547",
                   "name": "Radius"
                 }
@@ -5310,16 +5265,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-10795",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-10796",
           "name": "stool_height",
           "type": "number"
@@ -5431,8 +5386,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-13467",
               "name": "Dowel_diam"
             },
@@ -5468,8 +5423,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-13470",
               "name": "section_width"
             },
@@ -5892,8 +5847,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.352,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-13485",
               "name": "Dowel_depth"
             },
@@ -5999,8 +5954,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-13488",
                   "name": "ShapeToFillet",
                   "type": "geometry"
@@ -6029,16 +5984,16 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.256,
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
                   "uniqueID": "id-13490",
                   "name": "RegionShape",
                   "type": "geometry"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.352,
+                  "x": 0.025384615384615384,
+                  "y": 0.3384615384615385,
                   "uniqueID": "id-13491",
                   "name": "Radius"
                 }
@@ -6430,8 +6385,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-13507",
                   "name": "Length"
                 }
@@ -6715,8 +6670,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-15495",
               "name": "Dowel_diam"
             },
@@ -6752,8 +6707,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-15498",
               "name": "section_width"
             },
@@ -7230,8 +7185,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.352,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-15513",
               "name": "Dowel_depth"
             },
@@ -7492,8 +7447,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-15519",
                   "name": "ShapeToFillet",
                   "type": "geometry"
@@ -7522,16 +7477,16 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.256,
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
                   "uniqueID": "id-15521",
                   "name": "RegionShape",
                   "type": "geometry"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.352,
+                  "x": 0.025384615384615384,
+                  "y": 0.3384615384615385,
                   "uniqueID": "id-15522",
                   "name": "Radius"
                 }
@@ -7923,8 +7878,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-15538",
                   "name": "Length"
                 }
@@ -8346,24 +8301,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-11957",
           "name": "dowel_diam",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-11960",
           "name": "stool_width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.352,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "id-11963",
           "name": "stool_height",
           "type": "number"
@@ -8603,8 +8558,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-11968",
               "name": "DowelDiam",
               "type": "number"
@@ -8788,8 +8743,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-11982",
               "name": "Hole_Depth"
             },
@@ -8836,8 +8791,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
                   "uniqueID": "id-11980",
                   "name": "Radius",
                   "type": "number"
